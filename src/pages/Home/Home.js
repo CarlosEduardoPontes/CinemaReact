@@ -1,6 +1,6 @@
 import React from 'react';
-import ImageSlider from '../../components/carousel/ImageSlider';
 import { ContainerPage, TitlePage } from "../../components/Main";
+import ImageSlider from '../../components/carousel/ImageSlider';
 import { SliderData } from '../../components/carousel/SliderData';
 
 
@@ -9,7 +9,6 @@ const Page = () => {
         <ContainerPage>
             <TitlePage>
                 <ImageSlider slides={SliderData}>
-
                 </ImageSlider>
             </TitlePage>
         </ContainerPage>
